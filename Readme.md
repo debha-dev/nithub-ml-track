@@ -2,47 +2,46 @@
 
 🚀 This repository documents my learning journey through the Machine Learning Track at NIT-Hub, UNILAG — a 6-month immersive program where I’m learning how to work with real-world datasets and build hands-on ML skills.
 
-
 ---
 
-## 📚 Week 2 – Working with Real Data (Pandas)
+## 📊 Week 3 – Data Visualization with Matplotlib & Seaborn ##
+*** 🗓️ Topic of the Week: Data Visualization ***
+This week, I focused on **Data Visualization**, which is all about using visuals to understand and explain data better. I worked with **`Matplotlib`** and **`Seaborn`**, two powerful Python libraries for creating charts and graphs.
 
-In Week 2, we focused on **data cleaning**, **feature engineering**, and **basic analysis** using the [Data Science Salaries Dataset](https://www.kaggle.com/datasets/gagandeep16/car-sales).
+**📁 Dataset: Life Expectancy (WHO)**
+I used a new dataset this week, **`the Life Expectancy dataset from the World Health Organization (WHO)`**. It includes various health, social, and economic indicators across different countries and years. It was really interesting because it helped me explore topics like adult mortality, infant deaths, immunization rates, GDP, schooling, and more.
 
-### 🔍 Key Concepts Covered:
+**🛠️ What I Learned**
+- How to use Matplotlib to make simple charts like:
 
-- Reading datasets using Pandas
-- Exploring data with `.head()`, `.tail()`, `.info()`, `.value_counts()`
-- Creating new features (`salary_range`, `monthly_salary`, `working_years`)
-- Using `lambda`, `map()`, and dictionaries for transformation
-- Converting currencies into NGN
-- Cleaning and standardizing country names
+- Line plots
 
----
+- Bar charts
 
-## 📓 Notebook
+- Histograms
 
-You can view the full notebook here:  
-➡️ [`Data_science_salary.ipynb`](./Data_science_salary.ipynb)
+- How to use Seaborn for more advanced visuals like:
 
----
+- **`countplot`**, **`boxplot`**, **`pairplot`**, and **`heatmap`**
 
-## 🛠️ Tools Used
+- I discovered useful techniques like:
 
-- Python 3
-- Pandas
-- Google Colab
-- Jupyter Notebook
-- country_converter
-- currency conversion logic (manual)
+- Using **`.groupby()`** with plotting
 
----
+- Calculating correlations for specific columns (not just the whole DataFrame)
 
-## 💡 What's Next?
+- Making visuals that tell a story, not just show numbers
 
-Each week, I’ll be updating this repository with new notebooks and insights as we dive deeper into Machine Learning concepts — from feature engineering to model training and evaluation.
+**🔎 Key Takeaways**
+- Visualizing data helped me understand the dataset better. for example, I saw how:
 
-Stay tuned!
+- Life expectancy differs between developed and developing countries
 
----
+- Alcohol consumption is higher in many European countries
 
+- African countries face more challenges in terms of infant deaths and adult mortality
+
+- Higher schooling and health expenditure can lead to better life expectancy in some countries
+
+**💡 Reflections**
+This week really opened my eyes to how powerful visualizations are. Before, I would just look at numbers, but now I can see trends, patterns, and comparisons clearly. It makes analysis easier and more fun.
